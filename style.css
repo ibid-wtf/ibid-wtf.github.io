@@ -50,6 +50,9 @@ a.back:hover { color:var(--accent); }
 .nav { text-align:center; margin-top:3rem; padding-top:1.4rem;
   border-top:2px solid var(--ink); text-transform:uppercase;
   letter-spacing:.14em; font-size:.75rem; }
+/* the index nav sits ABOVE the cards, so its rule belongs underneath it */
+.navtop { margin:-1.4rem 0 2.6rem; padding:0 0 1.2rem; border-top:0;
+  border-bottom:2px solid var(--ink); }
 .nav a { color:var(--dim); text-decoration:none; }
 .nav a:hover { color:var(--accent); }
 article.about { margin-top:1.4rem; }
